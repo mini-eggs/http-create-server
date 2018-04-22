@@ -1,0 +1,29 @@
+{
+  "name": "@minieggs40/http-create-server",
+  "private": false,
+  "keywords": [
+    "micro",
+    "framework",
+    "microframework",
+    "functional",
+    "fp",
+    "http",
+    "create",
+    "server"
+  ],
+  "version": "1.0.4",
+  "description": "A simple, functional wrapper over http.createServer.",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": "Evan M Jones <me@evnajon.es> (https://evanjon.es/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "typescript": "^2.8.3"
+  },
+  "files": ["dist/main.js", "dist/main.map.js", "dist/main.d.ts"]
+}
